@@ -1,0 +1,36 @@
+/*
+Les ombres en CSS
+*/
+
+
+body{
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+}
+
+
+
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #f1f1f1;
+	margin: 5px;
+
+}
+
+button{
+	border: none;
+	outline: none;
+}
+
+a{
+
+	text-decoration: none;
+}

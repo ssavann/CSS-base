@@ -1,0 +1,85 @@
+/*
+La marge, le remplissage et les bordures
+*/
+
+
+body{
+	height: 100vh;
+}
+
+.box1{
+
+	/*
+	margin tout autour : 50px;
+	*/
+
+	width: 250px;
+	height: 250px;
+	background-color: orange;
+	margin:50px;
+}
+
+
+.box2{
+
+	/*
+	margin-top : 50px;
+	margin-right : 40px;
+	margin-bottom : 30px;
+	margin-left : 10px;
+	*/
+
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	margin: 50px 40px 30px 10px;
+}
+
+.box3{
+
+	/*
+	margin-top : 50px;
+	margin-right : 25px;
+	margin-bottom : 50px;
+	margin-left : 25px;
+	*/
+
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	margin: 50px 25px;
+}
+
+.box4{
+
+	/*
+	margin-top : 50px;
+	margin-right : 10px;
+	margin-bottom : 50px;
+	margin-left : 205px;
+	*/
+
+	width: 250px;
+	height: 250px;
+	background-color: violet;
+	margin: 50px 205px 10px;
+}
+
+.box5{
+
+	/*
+	margin-top : 50px;
+	margin-right : 10px;
+	margin-bottom : 50px;
+	margin-left : 205px;
+	*/
+
+	width: 250px;
+	height: 250px;
+	background-color: crimson;
+	margin: 50px;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+

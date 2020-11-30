@@ -1,0 +1,47 @@
+/*
+Différent Display
+*/
+
+
+body{
+	height: 100vh;
+}
+
+.box1{
+
+	display: inline;
+	background-color: orange;
+	box-sizing: border-box;
+	
+}
+
+
+span{
+	display: block;
+	width: 500px;
+	background-color: blue;
+	color: #fff;
+}
+
+
+.box2{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: violet;
+}
+
+
+.box3{
+
+	/*
+	Devient invisible
+	*/
+	display: none;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+
+

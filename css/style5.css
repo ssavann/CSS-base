@@ -1,0 +1,33 @@
+/*
+Block et inline en CSS
+*/
+
+
+body{
+	height: 100vh;
+}
+
+.box1{
+
+	/*
+	si aucun hauteur ni largeur, la boîte va prendre l'espace de ses enfants
+	*/	
+	background-color: orange;
+	
+}
+
+span{
+
+	/*
+	les éléments "Inline" ne commencent pas sur une nouvelle ligne et ne prend pas toute l'espace de la page 
+	*/
+
+	width: 200px;
+	height: 200px;
+	margin-top: 10000px;
+	margin-bottom: 10000px;
+	background-color: crimson;
+}
+
+
+

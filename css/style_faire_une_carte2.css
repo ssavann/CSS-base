@@ -1,0 +1,76 @@
+/*
+Faire une image responsive en CSS
+*/
+
+
+body{
+	height: 100vh;
+}
+
+.carte-img{
+	width: 600px;
+	height: auto;
+	/* overflow: hidden; */
+	background-color: #f1f1f1;
+	border: 1px solid #333;
+}
+
+
+.bloc-img{
+	height: 70%;
+	width: 100%;
+	/* overflow: hidden; pour cacher ce qu'il dépasse */
+	overflow: hidden;
+}
+
+.img-responsive{
+
+	width: 100%;
+	height: auto;
+}
+
+.carte-img h3{
+	padding: 10px;
+}
+
+.carte-img p{
+	padding: 0px 10px 10px 10px;
+}
+
+.carte-img hr{
+	margin-bottom: 15px;
+}
+
+.carte-img a{
+	padding: 0px 10px;
+	color: #333;
+	text-decoration: none;
+	cursor: auto;
+}
+
+/* 
+Camel Case:
+
+.maClasseDuContainer
+
+Pascal Case:
+
+.MaClasseSpeciale 
+.MasTerCard 
+.PlayStation
+
+spinal case ou kebab-case:
+
+.ma-classe-btn-red
+
+snake case:
+
+.ma_variable_du_container
+
+Screaming snake case:;
+
+.MA_VARIABLE_PRINCIPALE
+
+
+*/
+

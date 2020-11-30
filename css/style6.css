@@ -1,0 +1,24 @@
+/*
+Centrer avec margin-auto
+*/
+
+
+body{
+	height: 100vh;
+}
+
+.box1{
+
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 0 auto;
+	background-color: orange;
+	box-sizing: border-box;
+	
+}
+
+
+
+

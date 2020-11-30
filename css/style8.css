@@ -1,0 +1,26 @@
+/*
+Opacity vs Visibility vs Display: none;
+*/
+
+
+body{
+	height: 100vh;
+}
+
+#p1{
+	display: none;
+}
+
+
+#p2{
+	visibility: hidden;
+}
+
+
+#p3{
+	opacity: 0;
+}
+
+
+
+
